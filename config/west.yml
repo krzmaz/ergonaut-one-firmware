@@ -2,15 +2,20 @@ manifest:
   remotes:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
-    - name: ergonautkb
-      url-base: https://github.com/ergonautkb
+    - name: krzmaz
+      url-base: https://github.com/krzmaz
+    - name: englmaxi
+      url-base: https://github.com/englmaxi
   projects:
     - name: zmk
       remote: zmkfirmware
       revision: main
       import: app/west.yml
     - name: ergonautkb-zmk-module
-      remote: ergonautkb
+      remote: krzmaz
+      revision: dongle
+    - name: zmk-dongle-display
+      remote: englmaxi
       revision: main
   self:
     path: config
