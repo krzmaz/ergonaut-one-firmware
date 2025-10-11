@@ -37,11 +37,11 @@ layers:
   - .
   - /
   - ''
-  - NUM
+  - SYM
   - LEFT GUI
   - ␣
   - {t: ⌫, h: RIGHT SHIFT}
-  - SYM
+  - NUM
   - Alt
   SYM:
   - {t: F1, h: Gui}
@@ -80,11 +80,11 @@ layers:
   - '9'
   - '0'
   - Alt
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   NUM:
   - {t: KP NUM, h: Gui}
@@ -105,8 +105,8 @@ layers:
   - KP 5
   - KP 6
   - KP PLUS
-  - MUTE
   - ←
+  - ↓
   - ↑
   - →
   - Insert
@@ -119,15 +119,15 @@ layers:
   - KP DOT
   - Vol Down
   - End
-  - ↓
+  - MUTE
   - Page Down
   - Pause Break
   - Alt
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {type: held}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   ADJ:
   - Boot
