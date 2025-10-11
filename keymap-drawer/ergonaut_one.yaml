@@ -1,7 +1,7 @@
 layout: {zmk_keyboard: ergonaut_one}
 layers:
   MAIN:
-  - {t: ']', h: Gui}
+  - '`'
   - Q
   - W
   - E
@@ -12,20 +12,20 @@ layers:
   - I
   - O
   - P
-  - '['
-  - {t: '`', h: Ctrl}
+  - ''
+  - ↹
   - A
-  - S
-  - D
-  - F
+  - {t: S, h: Ctrl}
+  - {t: D, h: Alt}
+  - {t: F, h: Gui}
   - G
   - H
   - J
   - K
   - L
   - ;
-  - {t: '''', h: Ctrl}
-  - {t: '-', h: Alt}
+  - ''''
+  - {t: ESCAPE, h: Ctrl}
   - Z
   - X
   - C
@@ -36,13 +36,13 @@ layers:
   - ','
   - .
   - /
-  - {t: \, h: Alt}
-  - {t: ↹, h: NUM}
-  - {t: ␣, h: Shift}
-  - {t: ⏎, h: SYM}
-  - {t: Esc, h: SYM}
-  - {t: ⌫, h: Shift}
-  - {t: ⌦, h: NUM}
+  - ''
+  - NUM
+  - LEFT GUI
+  - ␣
+  - {t: ⌫, h: RIGHT SHIFT}
+  - SYM
+  - Alt
   SYM:
   - {t: F1, h: Gui}
   - F2
@@ -82,9 +82,9 @@ layers:
   - Alt
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {type: held}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   NUM:
   - {t: KP NUM, h: Gui}
@@ -168,7 +168,13 @@ layers:
   - Reset
   - {type: held}
   - ''
-  - {type: held}
+  - {t: ▽, type: trans}
   - ''
+  - {type: held}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+combos:
+- p: [19, 20, 21]
+  k: ENTER
+- p: [5, 6]
+  k: Boot
+  l: [ADJ]
