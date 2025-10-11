@@ -18,9 +18,9 @@ include:
     cmake-args: -DCONFIG_ZMK_SPLIT_ROLE_CENTRAL=n
     artifact-name: ergonaut_one_left_with_dongle
   - board: seeeduino_xiao_ble
-    shield: ergonaut_one_left
-    cmake-args: -DCONFIG_ZMK_SPLIT_ROLE_CENTRAL=n -DCONFIG_ZMK_STUDIO=y
-    artifact-name: ergonaut_one_left_with_dongle_studio
+    shield: ergonaut_one_right
+    cmake-args: -DCONFIG_ZMK_SPLIT_ROLE_CENTRAL=n
+    artifact-name: ergonaut_one_right_with_dongle
   - board: seeeduino_xiao_ble
     shield: ergonaut_one_dongle
     artifact-name: ergonaut_one_dongle
